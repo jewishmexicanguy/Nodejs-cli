@@ -1,0 +1,17 @@
+{
+  "name": "contacto",
+  "version": "1.0.0",
+  "description": "A Node CLI application ",
+  "main": "index.js",
+  "repository": "https://github.com/jewishmexicanguy/Nodejs-cli.git",
+  "author": "jewishmexicanguy",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "commander": "^2.15.1",
+    "inquirer": "^5.2.0",
+    "mongoose": "^5.0.14"
+  },
+  "preferGlobal": true,
+  "bin": "./contact.js"
+}
